@@ -34,7 +34,7 @@ Loading the Tagger
 ==================
 
 ``` python
-  >>> ffile = open('bitagger_pos', 'rb')
+  >>> ffile = open('backoff_tagger', 'rb')
   >>> tagger = pickle.load(ffile)
   >>> ffile.close()
 ```
